@@ -119,7 +119,7 @@
         "unstage-package": "git reset package.json",
         "clean-all": "git clean -dfx",
         "deploy:apps": "npm run final:www&&npm run build:android&& npm run build:ios && grunt pack-all",
-        "final:all": "npm run final:www&&npm run build:android-release&& npm run build:ios=release && grunt pack-all"
+        "final:all": "npm run final:www&&npm run build:android-release&& npm run build:ios-release && grunt pack-all"
     },
     "devDependencies": {
         "cordova": "^7.1.0",
